@@ -1,4 +1,7 @@
 # POO-Tema1-Grupo2
+##  Objetivo
+
+Comprender y aplicar los conceptos fundamentales de la programación orientada a objetos (clases, atributos, objetos e instanciación) mediante el diseño e implementación de la clase Estudiante en Java, evidenciando el trabajo colaborativo en GitHub.
 ##  Integrantes y roles
 
 | Integrante | Rol | Responsabilidades |
