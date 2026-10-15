@@ -1,0 +1,33 @@
+public class Principal {
+ public static void main(String[] args) {
+ Estudiante e1 = new Estudiante();
+ e1.nombre = "Ana";
+ e1.apellido = "Paredes";
+ e1.edad = 19;
+ e1.carrera = "Software";
+ e1.semestre = 3;
+ Estudiante e2 = new Estudiante();
+ e2.nombre = "Luis";
+ e2.apellido = "Mora";
+ e2.edad = 21;
+ e2.carrera = "Telecomunicaciones";
+ e2.semestre = 5;
+ Estudiante e3 = new Estudiante();
+ e3.nombre = "Maria";
+ e3.apellido = "Salazar";
+ e3.edad = 20;
+ e3.carrera = "Industrial";
+ e3.semestre = 4;
+ mostrar(e1);
+ mostrar(e2);
+ mostrar(e3);
+ }
+ static void mostrar(Estudiante e) {
+ System.out.println("Nombre: " + e.nombre);
+ System.out.println("Apellido: " + e.apellido);
+ System.out.println("Edad: " + e.edad);
+ System.out.println("Carrera: " + e.carrera);
+ System.out.println("Semestre: " + e.semestre);
+ System.out.println("-------------------");
+ }
+}
